@@ -16,8 +16,6 @@ if (env === 'dev') {
   epubFilePath = '/Users/apple/nginx/upload/export/epub'
   epubCoverPath = '/Users/apple/nginx/upload/export/book/res/img'
 } else if (env === 'dev-home') {
-  // resUrl = 'http://192.168.31.148:8081/book/res'
-  // fileUrl = 'http://192.168.31.148:8081/epub'
   resUrl = 'https://www.youbaobao.xyz/book/res'
   fileUrl = 'https://www.youbaobao.xyz/epub'
   fileUrl2 = 'https://www.youbaobao.xyz/epub2'
